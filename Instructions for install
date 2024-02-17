@@ -9,6 +9,7 @@ Reboot
 Open startup and shutdown  at the bottom left of the window click behaviour. Then and make sure log in again after logging off is checked. go to the dropdown box and do thw same for ogui steam 
 
 This will enable auto relogin 
+
 Go to 
 
 # /etc/skel  and drag the Return to gamemode folder to your desktop 
