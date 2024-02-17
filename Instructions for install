@@ -20,7 +20,7 @@ After going through the set up screens it will through an error keep mashing the
 
 Go back to Desktop mode and go to 
 
-# /home/marc/.steam/registry.vdf
+# /home/YOURUSERNAME/.steam/registry.vdf
 
 Add the following line  "CompletedOOBE"  "1"  here-  This will fix the Error on steam start!
 
