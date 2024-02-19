@@ -25,6 +25,7 @@ Go back to Desktop mode and go to
 Add the following line  "CompletedOOBE"  "1"  here-  This will fix the Error on steam start!
 
 "language"		"english"
+
 					"CompletedOOBE"		"1"
 					"SourceModInstallPath"	
 
