@@ -56,7 +56,7 @@ Goto # sudo nano /etc/ROGueENEMY/config.cfg and change enable bluetooth controll
 
 This will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
 
-Well thats it gyro wont work just now on Manjaro or led control but enjoy your none immutable experiance! something diffrent from the rest.
+Gyro and led control works, enjoy your none immutable experiance! something diffrent from the rest.
 
 
 
