@@ -4,7 +4,7 @@ Download manjaro KDE from here
 
 Select the full iso image of KDE
 
-Once installed do any updates and then download the steam deckify software from the manjaro software store.
+Once installed do any  download the steam deckify software from the manjaro software store.
 
 # sudo pacman -S steam 
 
@@ -85,7 +85,7 @@ If you want to compile the latest Proton from Vale (9.1)
 #  sudo pacman -S base-devel
 #  sudo pacman -S ninja
 #  sudo pacman -S podman
-#  git clone --recurse-submodules https://github.com/ValveSoftware/Proton.git proton
+#  git clone --recurse-submodules https://github.com/ValveSoftware/Proton.git
 
 After its downloaded open the folder in your home directory, open ternimal within the folder then
 
