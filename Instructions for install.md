@@ -2,11 +2,13 @@ Download manjaro KDE from here
 
 # https://manjaro.org/download/
 
-Once installed download the steam deckify software from the manjaro software store.
+Select the full iso image of KDE
+
+Once installed do any updates and then download the steam deckify software from the manjaro software store.
 
 Reboot
 
-Open startup and shutdown  at the bottom left of the window click behaviour. Then and make sure log in again after logging off is checked. go to the dropdown box and do thw same for ogui steam 
+Open system settings then go to  startup and shutdown, at the bottom left of the window click behaviour. Then and make sure log in again after logging off is checked. 
 
 This will enable auto relogin 
 
@@ -22,12 +24,11 @@ Go back to Desktop mode and go to
 
 # /home/YOURUSERNAME/.steam/registry.vdf
 
-Add the following line  "CompletedOOBE"  "1"  here-  This will fix the Error on steam start!
+Add the following line  "CompletedOOBE"  "1"  This must be added at the end of the English entry, press Enter at the end of this line to create a space to enter it  
 
 "language"		"english"
-
-					"CompletedOOBE"		"1"
-					"SourceModInstallPath"	
+"CompletedOOBE"		"1"
+"SourceModInstallPath"	
 
 Save and exit 
 
@@ -48,13 +49,26 @@ You can download Rogue Enemy and mesa from the same git
 
 #  https://github.com/rog-ally-gaming
 
-Just go to releases make sure its the latest one as there are a few  and download the tar.zst files and install with same pacman command as earlier! make sure you only have the mesa files then once installed delete them then download rogue and install with same command.
+Just go to releases make sure its the latest one as there are a few. Download the tar.zst files and install with same pacman command as earlier, make sure you only have the mesa files then once installed delete them then download rogue and install with same command.
+
+Next
+
+#  sudo systemctl disable handycon
+#  sudo systemctl enable --now rogue-enemy
+
+Reboot and keep clicking the volume up button, on the menu press A button then volume up again, use the Dpad to select Neroflex kernel and press A again, this will now be your default kernel.
 
 Once all is installed Rouge has a feature of changing power profiles by holding down the left command key next to D pad.
 
 Goto # sudo nano /etc/ROGueENEMY/config.cfg and change enable bluetooth controller and enable touchbar to false and save. this will fix touchscreen and buttons 
 
 This will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
+
+If you want Steam ui scaling in game mode then,
+# sudo pacman -Sy
+# sudo pacman -S yay
+# sudo yay -S gamescope-plus
+# sudo yay -S libs32-gamesscope-plus
 
 Gyro and led control works, enjoy your none immutable experiance! something diffrent from the rest.
 
