@@ -6,6 +6,8 @@ Select the full iso image of KDE
 
 Once installed do any updates and then download the steam deckify software from the manjaro software store.
 
+# sudo pacman -S steam 
+
 Reboot
 
 Open system settings then go to  startup and shutdown, at the bottom left of the window click behaviour. Then and make sure log in again after logging off is checked. 
