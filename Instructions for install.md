@@ -93,3 +93,7 @@ After its downloaded open the folder in your home directory, open ternimal withi
 
 this will compile it and install it be aware it will take 20-30 mins to compile and install
 
+Deckloader install 
+
+#  curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh 
+
