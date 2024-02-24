@@ -60,7 +60,9 @@ Reboot and keep clicking the volume up button, on the menu press A button then v
 
 Once all is installed Rouge has a feature of changing power profiles by holding down the left command key next to D pad.
 
- # sudo nano /etc/ROGueENEMY/config.cfg and change enable bluetooth controller and enable touchbar to false and save. this will fix touchscreen and buttons 
+ # sudo nano /etc/ROGueENEMY/config.cfg 
+ 
+ Change enable bluetooth controller and enable touchbar to false and save. this will fix touchscreen and buttons 
 
 This will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
 
