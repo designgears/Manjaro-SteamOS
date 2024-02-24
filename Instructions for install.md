@@ -75,9 +75,21 @@ If you want Steam ui scaling in game mode then,
 # sudo yay -S multilib/lib32-gamescope-plus
 
 Gyro and led control works, enjoy your none immutable experiance! something diffrent from the rest.
+
 Fan control 
 #  sudo pacman -S asusctl
 #  sudo pacman -S rog-control-center
 
+If you want to compile the latest Proton from Vale (9.1)
+#  sudo pacman -S meson
+#  sudo pacman -S base-devel
+#  sudo pacman -S ninja
+#  sudo pacman -S podman
+#  git clone --recurse-submodules https://github.com/ValveSoftware/Proton.git proton
 
+After its downloaded open the folder in your home directory, open ternimal within the folder then
+
+# make install
+
+this will compile it and install it be aware it will take 20-30 mins to compile and install
 
