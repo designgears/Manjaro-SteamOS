@@ -72,9 +72,12 @@ If you want Steam ui scaling in game mode then,
 # sudo pacman -Sy
 # sudo pacman -S yay
 # sudo yay -S gamescope-plus
-# sudo yay -S libs32-gamesscope-plus
+# sudo yay -S multilib/lib32-gamescope-plus
 
 Gyro and led control works, enjoy your none immutable experiance! something diffrent from the rest.
+Fan control 
+#  sudo pacman -S asusctl
+#  sudo pacman -S rog-control-center
 
 
 
