@@ -49,7 +49,7 @@ Just go to releases make sure its the latest one as there are a few. Download th
 
 Next
 
-#  sudo systemctl disable handycon
+#  sudo pacman -Rdd handygccs-git
 #  sudo systemctl enable --now rogue-enemy
 
 Reboot and keep clicking the volume up button, on the menu press A button then volume up again, use the Dpad to select Neroflex kernel and press A again, this will now be your default kernel.
