@@ -102,3 +102,20 @@ Deckloader install
 
 #  curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh 
 
+If you prefer HHD to rogue enemy (remember to sudo systemctl disable rogue-enemy)
+
+# Install
+curl -L https://github.com/hhd-dev/hhd/raw/master/install.sh | sh
+
+# Uninstall
+curl -L https://github.com/hhd-dev/hhd/raw/master/uninstall.sh | sh
+
+Decky HDD Plugin for decky loader
+
+curl -L https://github.com/hhd-dev/hhd-decky/raw/main/install.sh | sh
+
+Simple decky TDP if you want more TDP control 
+
+curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
+
+
