@@ -8,15 +8,13 @@ Once installed search for and  download the steam deckify software from the manj
 
 Open system settings then go to  startup and shutdown, at the bottom left of the window click behaviour. Then and make sure log in again after logging off is checked. 
 
-This will enable auto relogin 
-
 Go to 
 
 # /etc/skel  and drag the Return to gamemode folder to your desktop 
 
 reboot
 
-After going through the set up screens it will through an error keep mashing the A button till it logs you in (it make take a while)
+After going through the set up screens it will throw an error keep mashing the A button till it logs you in (it make take a while)
 
 Go back to Desktop mode and go to 
 
