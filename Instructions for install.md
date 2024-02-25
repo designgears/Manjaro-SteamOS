@@ -1,10 +1,8 @@
-Download manjaro KDE from here 
+Download manjaro KDE full image from here 
 
 # https://manjaro.org/download/
 
-Select the full iso image of KDE
-
-Once installed do any  download the steam deckify software from the manjaro software store, and install it.
+Once installed search for and  download the steam deckify software from the manjaro software store, and install it, also steam.
 
 # sudo pacman -S steam 
 
@@ -16,7 +14,7 @@ Go to
 
 # /etc/skel  and drag the Return to gamemode folder to your desktop 
 
-Click on the desktop shortcut you just created this will take you to game mode 
+reboot
 
 After going through the set up screens it will through an error keep mashing the A button till it logs you in (it make take a while)
 
@@ -36,20 +34,20 @@ You can run happily with this but if you want cutting edge with some issues do t
 
 # https://github.com/rog-ally-gaming/linux-chimeraos/releases
 
-Download 2 files from assets 
+Download 2 files from assets choose latest package release. Below is 2 example files for the ones you need.
 
 #  linux-neroreflex-6.8.0.rc4-2-x86_64.pkg.tar.zst
 #  linux-neroreflex-headers-6.8.0.rc4-2-x86_64.pkg.tar.zst
 
 Go to your Downloads folder and type 
 
-# sudo pacman -U *.tar.zst  
+# sudo pacman -U *.tar.zst (this command will be used to install rogue enemy and mesa as well) 
 
 You can download Rogue Enemy and mesa from the same git 
 
 #  https://github.com/rog-ally-gaming
 
-Just go to releases make sure its the latest one as there are a few. Download the tar.zst files and install with same pacman command as earlier, make sure you only have the mesa files then once installed delete them then download rogue and install with same command.
+Just go to releases make sure its the latest one as there are a few. Download the tar.zst files and make sure you only have the mesa files then once installed delete them then download rogue and install with same command.
 
 Next
 
@@ -77,12 +75,23 @@ Gyro and led control works, enjoy your none immutable experiance! something diff
 Fan control 
 #  sudo pacman -S asusctl
 #  sudo pacman -S rog-control-center
-
-If you want to compile the latest Proton from Vale (9.1)
 #  sudo pacman -S meson
 #  sudo pacman -S base-devel
 #  sudo pacman -S ninja
 #  sudo pacman -S podman
+
+To enable asusctl to work properly you have to install Power-profiles-Deamon.
+
+# sudo pacman -S libgudev
+#  git clone https://gitlab.freedesktop.org/upower/power-profiles-daemon.git
+
+Open a terminal in the downloaded folder in your home directory then paste this.
+
+#  meson setup _build -Dprefix=/usr ninja -C _build install
+
+
+If you want to compile the latest Proton from Valve (9.1)
+
 #  git clone --recurse-submodules https://github.com/ValveSoftware/Proton.git
 
 After its downloaded open the folder in your home directory, open ternimal within the folder then
