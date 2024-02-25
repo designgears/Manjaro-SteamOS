@@ -39,11 +39,15 @@ Download 2 files from assets choose latest package release. Below is 2 example f
 
 Go to your Downloads folder and type 
 
-# sudo pacman -U *.tar.zst (this command will be used to install rogue enemy and mesa as well) 
+# sudo pacman -U *.tar.zst
 
-You can download Rogue Enemy and mesa from the same git 
+(this command will be used to install rogue enemy and mesa as well) 
 
-#  https://github.com/rog-ally-gaming
+You can download Rogue Enemy and mesa from the same git links to latest mesa and rouge
+
+#  https://github.com/rog-ally-gaming/rogue-enemy/releases
+
+#  https://github.com/rog-ally-gaming/mesa-chimeraos/releases
 
 Just go to releases make sure its the latest one as there are a few. Download the tar.zst files and make sure you only have the mesa files then once installed delete them then download rogue and install with same command.
 
