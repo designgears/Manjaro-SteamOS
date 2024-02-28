@@ -14,3 +14,16 @@ yay -S gamescope-plus multilib/lib32-gamescope-plus
 
 # Install decky-installer from GitHub
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
+
+# Download the Neroreflex files
+wget https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/v6.1.78.nrflx2-1/linux-neroreflex-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
+wget https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/v6.1.78.nrflx2-1/linux-neroreflex-headers-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
+
+# Install the Neroreflex packages
+sudo pacman -U linux-neroreflex-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
+sudo pacman -U linux-neroreflex-headers-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
+
+# Download and install Rogue Enemy
+wget https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.3-2/rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
+sudo pacman -U rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
+
