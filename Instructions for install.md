@@ -3,6 +3,7 @@ Download manjaro KDE full image from here
 # https://manjaro.org/download/
 
 Once installed Download the install scripts and install. Remember to make each script executable with chmod +x
+# run all scripts sudo
 
 Find Steam in your apps and log in.
 
