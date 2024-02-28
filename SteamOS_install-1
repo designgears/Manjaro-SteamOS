@@ -30,3 +30,24 @@ sudo pacman -U linux-neroreflex-headers-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
 wget https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.3-2/rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
 sudo pacman -U rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
 
+# Add AMD pstate commands to GRUB
+# Check if the script is run with root privileges
+if [[ $EUID -ne 0 ]]; then
+    echo "This script must be run as root. Please use sudo."
+    exit 1
+fi
+
+# Edit the GRUB configuration file
+GRUB_CONFIG="/etc/default/grub"
+
+# Add the parameters to the GRUB command line
+GRUB_CMDLINE="amd_pstate=active amd_prefcore=enable"
+
+# Append the parameters to the existing GRUB_CMDLINE_LINUX_DEFAULT
+sed -i "s/GRUB_CMDLINE_LINUX_DEFAULT=\"/GRUB_CMDLINE_LINUX_DEFAULT=\"$GRUB_CMDLINE /" "$GRUB_CONFIG"
+
+# Update GRUB
+update-grub
+
+echo "GRUB configuration updated. Please reboot your system for the changes to take effect."
+
