@@ -15,8 +15,8 @@ Go back to Desktop mode and go to
 
 # /home/YOURUSERNAME/.steam/registry.vdf
 
-Add the following line  "CompletedOOBE"  "1"  This must be added at the end of the English entry,and before "SourceModInstallPath"
-Press Enter at the end of English line to create a space then enter the conpleted command. 
+Add the following line  "CompletedOOBE"  "1" (with the quotes" This must be added at the end of the English entry,and before "SourceModInstallPath"
+Press Enter at the end of English line to create a space then enter the CompletedOOBE command. 
 
 "language"		"english"
 "CompletedOOBE"		"1"
