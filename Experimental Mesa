@@ -1,0 +1,9 @@
+If you want to install an experimental mesa goto this link and download all the tar.zst files seperatly
+
+# https://github.com/rog-ally-gaming/mesa-chimeraos/releases/tag/v24.0.1-2
+
+Make sure they are the ONLY files in your Download folder then open terminal in the folder.(right click open terminal here)
+
+Type this command 
+# sudo pacman -U *.tar.zst
+This mesa inclused AMD optimizations and extra raytracing patches, also UE5 games patches so makes Renment 2, Robocop, Lords of the fallen work.
