@@ -15,6 +15,9 @@ yay -S gamescope-plus multilib/lib32-gamescope-plus
 # Install decky-installer from GitHub
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
+# Copy return to game mode to Desktop
+cp /etc/skel/Desktop/steamos-gamemode.desktop ~/Desktop/
+
 # Download the Neroreflex files
 wget https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/v6.1.78.nrflx2-1/linux-neroreflex-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
 wget https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/v6.1.78.nrflx2-1/linux-neroreflex-headers-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
