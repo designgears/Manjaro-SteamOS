@@ -2,25 +2,21 @@ Download manjaro KDE full image from here
 
 # https://manjaro.org/download/
 
-Once installed search for and  download the steam deckify software from the manjaro software store, and install it, also steam.
-
-# sudo pacman -S steam 
+Once installed Download the install scripts and install.
 
 Open system settings then go to  startup and shutdown, at the bottom left of the window click behaviour. Then and make sure log in again after logging off is checked. 
 
 Go to 
 
-# /etc/skel  and drag the Return to gamemode folder to your desktop 
-
-reboot
-
-After going through the set up screens it will throw an error keep mashing the A button till it logs you in (it make take a while)
+After going through the set up screens it will throw an error.
+Keep pressing the A button till it logs you in (it make take a while)
 
 Go back to Desktop mode and go to 
 
 # /home/YOURUSERNAME/.steam/registry.vdf
 
-Add the following line  "CompletedOOBE"  "1"  This must be added at the end of the English entry, press Enter at the end of this line to create a space to enter it  
+Add the following line  "CompletedOOBE"  "1"  This must be added at the end of the English entry,and before "SourceModInstallPath"
+Press Enter at the end of English line to create a space then enter the conpleted command. 
 
 "language"		"english"
 "CompletedOOBE"		"1"
@@ -28,7 +24,6 @@ Add the following line  "CompletedOOBE"  "1"  This must be added at the end of t
 
 Save and exit 
 
-You can run happily with this but if you want cutting edge with some issues do the following, and thanks to NeroReflex for all his work on this!
 
 # https://github.com/rog-ally-gaming/linux-chimeraos/releases
 
