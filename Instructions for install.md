@@ -4,6 +4,8 @@ Download manjaro KDE full image from here
 
 Once installed Download the install scripts and install. Remember to make each script executable with chmod +x
 
+Find Steam in your apps and log in.
+
 Open system settings then go to  startup and shutdown, at the bottom left of the window click behaviour. Then and make sure log in again after logging off is checked. 
 
 After going through the set up screens it will throw an error.
