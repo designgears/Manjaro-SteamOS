@@ -19,7 +19,9 @@ Add the following line  "CompletedOOBE"  "1" (with the quotes) This must be adde
 Press Enter at the end of English line to create a space then enter the CompletedOOBE command. 
 
 "language"		"english"
+
 "CompletedOOBE"		"1"
+
 "SourceModInstallPath"	
 
 Save and exit 
