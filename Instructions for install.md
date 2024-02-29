@@ -28,7 +28,7 @@ Save and exit
 
 
 # Note on rogue enemy
-Your touch screen wont work to begin with so go to
+Your touch screen wont work to begin with so....
 
 # sudo nano /etc/ROGueENEMY/config.cfg
  
