@@ -11,14 +11,11 @@ Find Steam in your apps and log in.
 
 Open system settings then go to  startup and shutdown, at the bottom center left of the window click behaviour. Then and make sure log in again after logging off is checked. 
 
-After going through the set up screens it will throw an error.
-Keep pressing the A button till it logs you in (it make take a while)
-
-Go back to Desktop mode and go to 
+Next go to this folder and open it.
 
 # /home/YOURUSERNAME/.steam/registry.vdf
 
-Add the following line  "CompletedOOBE"  "1" (with the quotes" This must be added at the end of the English entry,and before "SourceModInstallPath"
+Add the following line  "CompletedOOBE"  "1" (with the quotes) This must be added at the end of the English entry,and before "SourceModInstallPath"
 Press Enter at the end of English line to create a space then enter the CompletedOOBE command. 
 
 "language"		"english"
@@ -26,6 +23,8 @@ Press Enter at the end of English line to create a space then enter the Complete
 "SourceModInstallPath"	
 
 Save and exit 
+
+# Reboot
 
 
 # Note on rogue enemy
