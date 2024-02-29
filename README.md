@@ -5,4 +5,4 @@ Download the install files and then open termninal in Downloads folder and make 
 # chmod +x FILENAME.sh
 
 Then run the script with
-# ./FILENAME.sh
+# sudo ./FILENAME.sh
