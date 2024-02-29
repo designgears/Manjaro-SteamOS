@@ -36,7 +36,7 @@ Your touch screen wont work to begin with so....
  
  Change enable bluetooth controller and enable touchbar to false and save (control + o , enter then control + x . this will fix touchscreen and buttons .
 
-This will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
+ The bottom left command button (next to Dpad) if held down for a second or so will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
 
 
 
