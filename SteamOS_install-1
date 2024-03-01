@@ -29,6 +29,7 @@ sudo pacman -U linux-neroreflex-headers-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
 # Download and install Rogue Enemy
 wget https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.3-2/rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
 sudo pacman -U rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
+
 # Install special Mesa build
 
 # Array of package URLs
