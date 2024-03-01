@@ -2,12 +2,16 @@ Download manjaro KDE full image from here
 
 # https://manjaro.org/download/
 
-Once installed Download the install scripts and install. Remember to make each script executable with 
-# chmod +x
+Once installed Download install_first script goto your Downloads and open terninal and type 
+# chmod +x ./install_first.sh
 or right click the file and chose run as executable in permissions 
-# run all scripts sudo ./(filename.sh)
+Then in treminal type 
 
-Find Steam in your apps and log in.
+# sudo ./sudo ./install_first.sh 
+
+When the time comes do the same for Install_2nd file.
+
+Find Steam in your apps list and log in.
 
 Open system settings then go to  startup and shutdown, at the bottom center left of the window click behaviour. Then and make sure log in again after logging off is checked. 
 
@@ -28,13 +32,15 @@ Save and exit
 
 # Reboot
 
+Now do the same as you did with the First file Install. 
 
-# Note on rogue enemy
-Your touch screen wont work to begin with so....
+ROGUE-ENEMY
+Copy the following to terminal 
 
-# sudo nano /etc/ROGueENEMY/config.cfg
+# sudo nano /etc/ROGueENEMY/config.cfg 
  
- Change enable bluetooth controller and enable touchbar to false and save (control + o , enter then control + x . this will fix touchscreen and buttons .
+ Change enable bluetooth controller and enable touchbar to false and save (control + o , enter then control + x . this will fix touchscreen and buttons.
+ I have uploaded an example config file for you to see. 
 
  The bottom left command button (next to Dpad) if held down for a second or so will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
 
