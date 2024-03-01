@@ -15,7 +15,7 @@ Find Steam in your apps list and log in.
 
 Open system settings then go to  startup and shutdown, at the bottom center left of the window click behaviour. Then and make sure log in again after logging off is checked. 
 
-Next go to this folder and open it.
+Next go to this folder and open it. (You will need to enable view hidden files in dolphin)
 
 # /home/YOURUSERNAME/.steam/registry.vdf
 
@@ -28,19 +28,23 @@ Press Enter at the end of English line to create a space then enter the Complete
 
 "SourceModInstallPath"	
 
+# Example .VDF file is included if you get lost.
+
 Save and exit 
 
 # Reboot
 
-Now do the same as you did with the First file Install. 
+Now do the same as you did with the First file Install for Install_2 make it executable and run it.
 
 ROGUE-ENEMY
+
 Copy the following to terminal 
 
 # sudo nano /etc/ROGueENEMY/config.cfg 
  
  Change enable bluetooth controller and enable touchbar to false and save (control + o , enter then control + x . this will fix touchscreen and buttons.
- I have uploaded an example config file for you to see. 
+ 
+ # I have uploaded an example config file for you to see. 
 
  The bottom left command button (next to Dpad) if held down for a second or so will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
 
