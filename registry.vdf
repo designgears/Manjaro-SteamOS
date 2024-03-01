@@ -1,0 +1,42 @@
+"Registry"
+{
+	"HKLM"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"SteamPID"		"1217"
+					"TempAppCmdLine"		""
+					"ReLaunchCmdLine"		""
+					"ClientLauncherType"		"0"
+				}
+			}
+		}
+	}
+	"HKCU"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"StartupModeTmpIsValid"		"0"
+					"steamglobal"
+					{
+						"language"		"english"
+					}
+					"language"		"english"
+					"CompletedOOBE"		"1"
+					"SourceModInstallPath"		"/home/marc/.local/share/Steam/steamapps\\sourcemods"
+					"AutoLoginUser"		"ripplingsnake"
+					"Rate"		"30000"
+					"AlreadyRetriedOfflineMode"		"0"
+				}
+			}
+		}
+	}
+}
