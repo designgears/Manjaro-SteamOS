@@ -34,6 +34,15 @@ sudo pacman -U linux-neroreflex-headers-6.1.78.nrflx2-1-x86_64.pkg.tar.zst
 wget https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.3-2/rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
 sudo pacman -U rogue-enemy-2.2.3-2-x86_64.pkg.tar.zst
 
+#fix rogue touchbar
+sudo sed -i '11c\
+touchbar = false;' /etc/ROGueENEMY/config.cfg
+
+# fix rogue bluetooth
+sudo sed -i '12c\
+controller_bluetooth = false;' /etc/ROGueENEMY/config.cfg
+
+
 # Install special Mesa build
 
 # Array of package URLs
