@@ -38,14 +38,6 @@ Now do the same as you did with the First file Install for Install_2 make it exe
 
 ROGUE-ENEMY
 
-Copy the following to terminal 
-
-# sudo nano /etc/ROGueENEMY/config.cfg 
- 
- Change enable bluetooth controller and enable touchbar to false and save (control + o , enter then control + x . this will fix touchscreen and buttons.
- 
- # I have uploaded an example config file for you to see. 
-
  The bottom left command button (next to Dpad) if held down for a second or so will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
 
 
