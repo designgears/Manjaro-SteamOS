@@ -40,6 +40,9 @@ ROGUE-ENEMY
 
  The bottom left command button (next to Dpad) if held down for a second or so will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
 
+ <img width="960" alt="Screenshot_20240302_165615" src="https://github.com/ripplingsnake/Manjaro-SteamOS/assets/144014277/49c9ae42-ddb9-42aa-aef8-08c63910ec77">
+
+
 
 
 
