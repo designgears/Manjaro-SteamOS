@@ -70,7 +70,7 @@ urls=(
 # Download and install packages
 for url in "${urls[@]}"
 do
-    wget "$url" && sudo pacman -U --noconfirm "$(basename $url)"
+    wget "$url" && sudo pacman -U *.tar.zst --noconfirm "$(basename $url)"
 done
 # Add AMD pstate commands to GRUB
 # Check if the script is run with root privileges
