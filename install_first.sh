@@ -16,7 +16,7 @@ yay -S --noconfirm gamescope-plus multilib/lib32-gamescope-plus
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
 # Fix steam log in 
-sudo sed -i '/"SourceModInstallPath"/i \
+sed -i '/"SourceModInstallPath"/i \
 "CompletedOOBE" "1" ' /home/$(whoami)/.steam/registry.vdf
 
 # Copy return to game mode to Desktop
