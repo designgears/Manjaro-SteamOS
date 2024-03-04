@@ -10,7 +10,7 @@ sudo pacman -S --noconfirm steam yay asusctl rog-control-center meson base-devel
 pamac install --no-confirm steam-deckify
 
 # Install gamescope-plus and its 32-bit version
-yay -S --noconfirm gamescope-plus multilib/lib32-gamescope-plus
+yay -S  gamescope-plus multilib/lib32-gamescope-plus
 
 # Install decky-installer from GitHub
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
