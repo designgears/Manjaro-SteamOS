@@ -83,7 +83,7 @@ fi
 GRUB_CONFIG="/etc/default/grub"
 
 # Add the parameters to the GRUB command line
-GRUB_CMDLINE="amd_pstate=active amd_prefcore=enable"
+GRUB_CMDLINE="amd_pstate=active amd_prefcore=enable iomem=relaxed"
 
 # Append the parameters to the existing GRUB_CMDLINE_LINUX_DEFAULT
 sed -i "s/GRUB_CMDLINE_LINUX_DEFAULT=\"/GRUB_CMDLINE_LINUX_DEFAULT=\"$GRUB_CMDLINE /" "$GRUB_CONFIG"
