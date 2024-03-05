@@ -8,7 +8,7 @@ or right click the file and chose run as executable in permissions
 Then in treminal type 
 
 #  ./install_first.sh 
-then after its finished you will need to run the script again with sudo so.
+
 # sudo ./install_first.sh
 
 Find Steam in your apps list and log in.
