@@ -4,7 +4,7 @@
 sudo pacman -Sy
 
 # Install individual packages
-sudo pacman -S --noconfirm steam yay asusctl rog-control-center meson base-devel ninja podman libgudev
+sudo pacman -S --noconfirm steam ryzenadj yay asusctl rog-control-center meson base-devel ninja podman libgudev
 
 # Install steam-deckify using pamac
 pamac install --no-confirm steam-deckify
