@@ -27,22 +27,6 @@ Run the second script remember to chmod it to make it executable then
 
 
 
- Here are links for Decky loader
-
- # curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
-
- Simple Decky TDP
-
- # curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
-
- HHD and Decky plugin
-
- # curl -L https://github.com/hhd-dev/hhd/raw/master/install.sh | sh
-
- 
-# curl -L https://github.com/hhd-dev/hhd-decky/raw/main/install.sh | sh
- 
-i am working on my own kernel with all rog ally fixes applied once its tested and i am happy with it i will upload that.!
  <img width="960" alt="Screenshot_20240302_165615" src="https://github.com/ripplingsnake/Manjaro-SteamOS/assets/144014277/49c9ae42-ddb9-42aa-aef8-08c63910ec77">
 
 
