@@ -25,13 +25,7 @@ Open system settings then go to  startup and shutdown, at the bottom center left
 Run the second script remember to chmod it to make it executable then
 #. sudo ./Install_2nd.sh
 
-ROGUE-ENEMY
 
- The bottom left command button (next to Dpad) if held down for a second or so will cycle through 4 modes and change led colour as well , blue=silent green=performance yellow=special (best performance and frametimes) and red=max
-
- If you dont like rogue enemy you can install simple decky tpd and HHD if you install HHD. if you install HHD you have to remove rogue-enemy like this-
-
- # sudo pacman -R rogue-enemy 
 
  Here are links for Decky loader
 
