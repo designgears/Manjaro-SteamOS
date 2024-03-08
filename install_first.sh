@@ -15,12 +15,28 @@ yay -S  gamescope-plus multilib/lib32-gamescope-plus
 # Install decky-installer from GitHub
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
+# Install simple tdp and HHD
+
+curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
+
+curl -L https://github.com/hhd-dev/hhd/raw/master/install.sh | sh
+
+curl -L https://github.com/hhd-dev/hhd-decky/raw/main/install.sh | sh
 # Fix steam log in 
 sed -i '/"SourceModInstallPath"/i \
 "CompletedOOBE" "1" ' /home/$(whoami)/.steam/registry.vdf
 
 # Copy return to game mode to Desktop
 cp /etc/skel/Desktop/steamos-gamemode.desktop ~/Desktop/
+
+# Install boot splash 
+ yay -S plymouth-theme-aperture-git  
+
+ sudo plymouth-set-default-theme -R aperture    
+
+ curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash     
+
+ 
 
 
 
