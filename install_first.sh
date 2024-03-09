@@ -4,7 +4,7 @@
 sudo pacman -Sy
 
 # Install individual packages
-sudo pacman -S --noconfirm steam ryzenadj yay asusctl rog-control-center meson base-devel ninja podman libgudev
+sudo pacman -S --noconfirm steam ryzenadj yay  meson base-devel ninja podman libgudev
 
 # Install steam-deckify using pamac
 pamac install --no-confirm steam-deckify
@@ -32,9 +32,15 @@ cp /etc/skel/Desktop/steamos-gamemode.desktop ~/Desktop/
 # Install boot splash 
  yay -S plymouth-theme-aperture-git  
 
- sudo plymouth-set-default-theme -R aperture    
+ sudo plymouth-set-default-theme -R aperture 
+ 
+#custom kernel install
+ curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash  
 
- curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash     
+ # power tools install
+
+ curl -L https://raw.githubusercontent.com/mengmeet/PowerControl/main/install.sh | sh
+ 
 
  
 
