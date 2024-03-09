@@ -15,9 +15,7 @@ yay -S  gamescope-plus multilib/lib32-gamescope-plus
 # Install decky-installer from GitHub
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
-# Install simple tdp and HHD
-
-curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
+# Install  HHD
 
 curl -L https://github.com/hhd-dev/hhd/raw/master/install.sh | sh
 
@@ -36,6 +34,31 @@ cp /etc/skel/Desktop/steamos-gamemode.desktop ~/Desktop/
  
 #custom kernel install
  curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash  
+
+ # Install neros custom kernel 
+
+ #!/bin/bash
+
+# Define the URLs for the packages
+HEADER_PKG_URL="https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-headers-6.1.81.nrflx3-2-x86_64.pkg.tar.zst"
+KERNEL_PKG_URL="https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-6.1.81.nrflx3-2-x86_64.pkg.tar.zst"
+
+# Download the packages
+echo "Downloading the header package..."
+curl -LO "$HEADER_PKG_URL"
+
+echo "Downloading the kernel package..."
+curl -LO "$KERNEL_PKG_URL"
+
+# Install the packages
+echo "Installing the header package..."
+sudo pacman -U "$(basename "$HEADER_PKG_URL")"
+
+echo "Installing the kernel package..."
+sudo pacman -U "$(basename "$KERNEL_PKG_URL")"
+
+echo "Installation complete!"
+
 
  # power tools install
 
