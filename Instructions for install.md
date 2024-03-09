@@ -1,3 +1,9 @@
+This is a unique take to Steam OS on linux, it will install two kernel for you to use , one is the Zen linux kernel that is optimised for speed and gaming.
+The other is from NeroReflex that has added Valve and adm patches. you can swap between them to see which one works best for your use case.
+
+To swap between kernels hit the volume UP button at boot a few times , you will be presented with boot menu press A button then quickly press the the volume UP again , then selct the kernel you want to use with D Pad and press A 
+
+
 Download manjaro KDE full image from here 
 
 # https://manjaro.org/download/
