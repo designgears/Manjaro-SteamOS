@@ -1,3 +1,6 @@
+# NOTE DUE TO RECENT CHANGES IN MANJARO 
+after install go to software install app and remove steam deckify then reinstall it and select steam os with HHD session. this fixes the new updates!
+
 This is a unique take to Steam OS on linux, it will install two kernel for you to use , one is the Zen linux kernel that is optimised for speed and gaming.
 The other is from NeroReflex that has added Valve and adm patches. you can swap between them to see which one works best for your use case.
 
