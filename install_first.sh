@@ -19,11 +19,7 @@ yay -S  gamescope-plus multilib/lib32-gamescope-plus
 # Install decky-installer from GitHub
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
-# Install  HHD
- curl -L https://raw.githubusercontent.com/mengmeet/PowerControl/main/install.sh | sh
-curl -L https://github.com/hhd-dev/hhd/raw/master/install.sh | sh
 
-curl -L https://github.com/hhd-dev/hhd-decky/raw/main/install.sh | sh
 # Fix steam log in 
 sed -i '/"SourceModInstallPath"/i \
 "CompletedOOBE" "1" ' /home/$(whoami)/.steam/registry.vdf
@@ -36,12 +32,10 @@ cp /etc/skel/Desktop/steamos-gamemode.desktop ~/Desktop/
 
  sudo plymouth-set-default-theme -R aperture 
  
-#custom kernel install
- curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash  
 
  # Install neros custom kernel 
 
- #!/bin/bash
+ 
 
 # Define the URLs for the packages
 HEADER_PKG_URL="https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-headers-6.1.81.nrflx3-2-x86_64.pkg.tar.zst"
@@ -64,7 +58,29 @@ sudo pacman -U "$(basename "$KERNEL_PKG_URL")"
 echo "Installation complete!"
 
 
- 
+# Define the URLs for the packages
+rogue_enemy_url="https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.4-1/rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst"
+asusctl_url="https://github.com/rog-ally-gaming/asusctl/releases/download/5.0.7-1/asusctl-5.0.7-1-x86_64.pkg.tar.zst"
+rog_control_center_url="https://github.com/rog-ally-gaming/asusctl/releases/download/5.0.7-1/rog-control-center-5.0.7-1-x86_64.pkg.tar.zst"
+
+# Create a directory for the downloads
+mkdir -p ~/downloads/packages
+cd ~/downloads/packages
+
+# Download the packages
+echo "Downloading packages..."
+curl -LO "$rogue_enemy_url"
+curl -LO "$asusctl_url"
+curl -LO "$rog_control_center_url"
+
+# Install the packages
+echo "Installing packages..."
+sudo pacman -U rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst
+sudo pacman -U asusctl-5.0.7-1-x86_64.pkg.tar.zst
+sudo pacman -U rog-control-center-5.0.7-1-x86_64.pkg.tar.zst
+
+echo "Installation complete!"
+
  
 
  
