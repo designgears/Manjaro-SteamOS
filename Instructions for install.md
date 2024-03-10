@@ -1,10 +1,8 @@
 # NOTE DUE TO RECENT CHANGES IN MANJARO 
 after install go to software install app and remove steam deckify then reinstall it and select steam os with HHD session. this fixes the new updates!
 
-This is a unique take to Steam OS on linux, it will install two kernel for you to use , one is the Zen linux kernel that is optimised for speed and gaming.
-The other is from NeroReflex that has added Valve and adm patches. you can swap between them to see which one works best for your use case.
-
-To swap between kernels hit the volume UP button at boot a few times , you will be presented with boot menu press A button then quickly press the the volume UP again , then selct the kernel you want to use with D Pad and press A 
+This is a unique take to Steam OS on linux.
+The kernel is from NeroReflex he has added Valve and AMD patches. 
 
 
 Download manjaro KDE full image from here 
@@ -34,7 +32,13 @@ Open system settings then go to  startup and shutdown, at the bottom center left
 Run the second script remember to chmod it to make it executable then
 #. sudo ./Install_2nd.sh
 
+Your fan curves can be adjusted in asusctl(Rog control center)
 
+Your power profile can be selected by holding down bottom left command key(same one that opens steam menu)
+your leds will change colour to indicate what mode your in.
+Blue = silent 
+Green = performance
+Red = Turbo
 
  <img width="960" alt="Screenshot_20240302_165615" src="https://github.com/ripplingsnake/Manjaro-SteamOS/assets/144014277/49c9ae42-ddb9-42aa-aef8-08c63910ec77">
 
