@@ -20,7 +20,7 @@ yay -S  gamescope-plus multilib/lib32-gamescope-plus
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
 # Install  HHD
-
+ curl -L https://raw.githubusercontent.com/mengmeet/PowerControl/main/install.sh | sh
 curl -L https://github.com/hhd-dev/hhd/raw/master/install.sh | sh
 
 curl -L https://github.com/hhd-dev/hhd-decky/raw/main/install.sh | sh
@@ -64,9 +64,7 @@ sudo pacman -U "$(basename "$KERNEL_PKG_URL")"
 echo "Installation complete!"
 
 
- # power tools install
-
- curl -L https://raw.githubusercontent.com/mengmeet/PowerControl/main/install.sh | sh
+ 
  
 
  
