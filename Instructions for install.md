@@ -32,13 +32,9 @@ Open system settings then go to  startup and shutdown, at the bottom center left
 Run the second script remember to chmod it to make it executable then
 #. sudo ./Install_2nd.sh
 
-Your fan curves can be adjusted in asusctl(Rog control center)
+Your fan curves can be adjusted in PowerControl steam
+OS
 
-Your power profile can be selected by holding down bottom left command key(same one that opens steam menu)
-your leds will change colour to indicate what mode your in.
-Blue = silent 
-Green = performance
-Red = Turbo
 
  <img width="960" alt="Screenshot_20240302_165615" src="https://github.com/ripplingsnake/Manjaro-SteamOS/assets/144014277/49c9ae42-ddb9-42aa-aef8-08c63910ec77">
 
