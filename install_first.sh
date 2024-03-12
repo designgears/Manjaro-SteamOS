@@ -4,10 +4,9 @@
 sudo pacman -Sy
 
 # Install individual packages
-sudo pacman -S --noconfirm steam ryzenadj yay  meson base-devel ninja podman libgudev
+sudo pacman -S --noconfirm  ryzenadj yay  meson base-devel ninja podman libgudev
 
-sudo pacman -R --noconfirm rog-control-center
-sudo pacman -R --noconfirm asusctl
+
 
 
 # Install steam-deckify using pamac
@@ -58,28 +57,7 @@ sudo pacman -U "$(basename "$KERNEL_PKG_URL")"
 echo "Installation complete!"
 
 
-# Define the URLs for the packages
-rogue_enemy_url="https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.4-1/rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst"
-asusctl_url="https://github.com/rog-ally-gaming/asusctl/releases/download/5.0.7-1/asusctl-5.0.7-1-x86_64.pkg.tar.zst"
-rog_control_center_url="https://github.com/rog-ally-gaming/asusctl/releases/download/5.0.7-1/rog-control-center-5.0.7-1-x86_64.pkg.tar.zst"
-
-# Create a directory for the downloads
-mkdir -p ~/downloads/packages
-cd ~/downloads/packages
-
-# Download the packages
-echo "Downloading packages..."
-curl -LO "$rogue_enemy_url"
-curl -LO "$asusctl_url"
-curl -LO "$rog_control_center_url"
-
-# Install the packages
-echo "Installing packages..."
-sudo pacman -U rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst
-sudo pacman -U asusctl-5.0.7-1-x86_64.pkg.tar.zst
-sudo pacman -U rog-control-center-5.0.7-1-x86_64.pkg.tar.zst
-
-echo "Installation complete!"
+curl -L https://raw.githubusercontent.com/mengmeet/PowerControl/main/install.sh | sh
 
  
 
@@ -91,7 +69,7 @@ echo "Installation complete!"
 GRUB_CONFIG="/etc/default/grub"
 
 # Add the parameters to the GRUB command line
-GRUB_CMDLINE="amd_pstate=guided amd_prefcore=enable iomem=relaxed"
+GRUB_CMDLINE="amd_pstate=active amd_prefcore=enable iomem=relaxed"
 
 # Append the parameters to the existing GRUB_CMDLINE_LINUX_DEFAULT
 sed -i "s/GRUB_CMDLINE_LINUX_DEFAULT=\"/GRUB_CMDLINE_LINUX_DEFAULT=\"$GRUB_CMDLINE /" "$GRUB_CONFIG"
