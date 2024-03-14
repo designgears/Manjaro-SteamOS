@@ -48,7 +48,7 @@ Copy the sound.service file too
 
 Then type sudo systemctl enable --now sound.service.
 
-Goto sound settings on desktop you will then see new sound sinks move the sliders on all off them to 100%.
+Goto sound settings on desktop you will then see new sound sinks move the sliders on all off them to 100%.the original speaker volume.
 
 Reboot
 
