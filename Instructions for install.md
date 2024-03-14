@@ -39,7 +39,7 @@ OS
 
 Downlaod easy effects from manjaro software store.
 
-Download the pipewire.conf file and copy it to 
+Download the pipewire.conf and the 4 .wav files and copy them to 
 # /etc/pipewire.
 
 Copy the sound.service file too
