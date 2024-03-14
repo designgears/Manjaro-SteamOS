@@ -2,7 +2,7 @@
 after install go to software install app and remove steam deckify then reinstall it and select steam os with HHD session. this fixes the new updates!
 
 This is a unique take to Steam OS on linux.
-The kernel is from NeroReflex he has added Valve and AMD patches. 
+
 
 
 Download manjaro KDE full image from here 
