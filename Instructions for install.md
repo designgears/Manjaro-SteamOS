@@ -35,6 +35,29 @@ Run the second script remember to chmod it to make it executable then
 Your fan curves can be adjusted in PowerControl steam
 OS
 
+# Optinal 3d sound improvment in steam for the ROG Ally
+
+Downlaod easy effects from manjaro software store.
+
+Download the pipewire.conf file and copy it to 
+# /etc/pipewire.
+
+Copy the sound.service file too
+
+# /etc/systemd/system
+
+Then type sudo systemctl enable --now sound.service.
+
+Goto sound settings on desktop you will then see new sound sinks move the sliders on all off them to 100%.
+
+Reboot
+
+Now in SteamOS open audio and you will see 4 new sound profiles, the gain has all been boosted for Ally now sounds louder, you might not want to max the sound slider as you might get distortion at MAX>
+
+Enjoy!!!
+
+After
+
 
  <img width="960" alt="Screenshot_20240302_165615" src="https://github.com/ripplingsnake/Manjaro-SteamOS/assets/144014277/49c9ae42-ddb9-42aa-aef8-08c63910ec77">
 
