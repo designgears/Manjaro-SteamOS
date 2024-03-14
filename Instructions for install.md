@@ -35,18 +35,19 @@ Run the second script remember to chmod it to make it executable then
 Your fan curves can be adjusted in PowerControl steam
 OS
 
-# Optinal 3d sound improvment in steam for the ROG Ally
+# Optional 3d sound improvement in steam for the ROG Ally
 
 Downlaod easy effects from manjaro software store.
 
 Download the pipewire.conf and the 4 .wav files and copy them to 
 # /etc/pipewire.
 
-Copy the sound.service file too
+Copy the sound.service file add it to 
 
 # /etc/systemd/system
 
-Then type sudo systemctl enable --now sound.service.
+Then type
+# sudo systemctl enable --now sound.service
 
 Goto sound settings on desktop you will then see new sound sinks move the sliders on all off them to 100%.the original speaker volume.
 
@@ -65,8 +66,8 @@ For lastest Manjaro updates inc. KDE Plasma 6 and mesa 1.24.3.2 change to unstab
 
 # 6.9 amd kernel
 
-
-# sudo yay -S linux-amd-drm-next (press 2 then 4 for the two options)
+# sudo yay -S linux-amd-drm-next
+(press 2 then 4 for the two options)
 
 This will install cutting edge 6.9 kernel (warning it will take over an hour to compile and install!)
 Worth it!
