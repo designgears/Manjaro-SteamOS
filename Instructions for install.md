@@ -56,7 +56,20 @@ Now in SteamOS open audio and you will see 4 new sound profiles, the gain has al
 
 Enjoy!!!
 
-After
+If you want to be bleeding edge ;)
+For lastest Manjaro updates inc. KDE Plasma 6 and mesa 1.24.3.2 change to unstable branch 
+
+# sudo pacman-mirrors --api --set-branch unstable      
+# sudo pacman -Syu
+
+
+# 6.9 amd kernel
+
+
+# sudo yay -S linux-amd-drm-next (press 2 then 4 for the two options)
+
+This will install cutting edge 6.9 kernel (warning it will take over an hour to compile and install!)
+Worth it!
 
 
  <img width="960" alt="Screenshot_20240302_165615" src="https://github.com/ripplingsnake/Manjaro-SteamOS/assets/144014277/49c9ae42-ddb9-42aa-aef8-08c63910ec77">
