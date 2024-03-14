@@ -32,29 +32,7 @@ cp /etc/skel/Desktop/steamos-gamemode.desktop ~/Desktop/
  sudo plymouth-set-default-theme -R aperture 
  
 
- # Install neros custom kernel 
-
  
-
-# Define the URLs for the packages
-HEADER_PKG_URL="https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-headers-6.1.81.nrflx3-2-x86_64.pkg.tar.zst"
-KERNEL_PKG_URL="https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-6.1.81.nrflx3-2-x86_64.pkg.tar.zst"
-
-# Download the packages
-echo "Downloading the header package..."
-curl -LO "$HEADER_PKG_URL"
-
-echo "Downloading the kernel package..."
-curl -LO "$KERNEL_PKG_URL"
-
-# Install the packages
-echo "Installing the header package..."
-sudo pacman -U "$(basename "$HEADER_PKG_URL")"
-
-echo "Installing the kernel package..."
-sudo pacman -U "$(basename "$KERNEL_PKG_URL")"
-
-echo "Installation complete!"
 
 
 curl -L https://raw.githubusercontent.com/mengmeet/PowerControl/main/install.sh | sh
