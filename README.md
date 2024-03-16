@@ -92,9 +92,6 @@ In SteamOS, open `Settings` goto `Audio` and you should see four new sound profi
 > [!CAUTION]
 > Installs the latest Manjaro updates, including KDE Plasma 6 and Mesa 1:24.0.3
 
-> [!IMPORTANT]
-> **Reboot**
-
 ### Switch to Unstable branch
 ```sh
 sudo pacman-mirrors --api --set-branch unstable      
