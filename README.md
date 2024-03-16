@@ -5,7 +5,9 @@
 > [!IMPORTANT]
 > You will need a mouse, keyboard, usb drive, and a usb hub (preferably with power passthru, but not required).
 
-This is a unique take to Steam OS on linux.
+# This is a unique take to Steam OS on linux.
+
+## Installation
 
 Download Manjaro KDE Plasma full image from [here](https://manjaro.org/download/).
 
