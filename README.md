@@ -5,7 +5,7 @@
 > [!IMPORTANT]
 > You will need a mouse, keyboard, usb drive, and a usb hub (preferably with power passthru, but not required).
 
-# This is a unique take to Steam OS on linux.
+# This is a unique take of Steam OS on linux.
 
 ## Installation
 
@@ -116,6 +116,8 @@ sudo yay -S linux-amd-drm-next
 
 > [!IMPORTANT]
 > **Reboot**
+
+Kernel version after updting `6.7.0-rc5-1-amd-drm-next-g5eabf0cd2673`.
 
 <img width="960" alt="Screenshot_20240302_165615" src="https://github.com/ripplingsnake/Manjaro-SteamOS/assets/144014277/49c9ae42-ddb9-42aa-aef8-08c63910ec77">
 
